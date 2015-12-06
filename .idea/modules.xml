@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Array/Array.iml" filepath="$PROJECT_DIR$/Array/Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/IntegerToWords/IntegerToWords.iml" filepath="$PROJECT_DIR$/IntegerToWords/IntegerToWords.iml" />
       <module fileurl="file://$PROJECT_DIR$/InvertBinaryTree/InvertBinaryTree.iml" filepath="$PROJECT_DIR$/InvertBinaryTree/InvertBinaryTree.iml" />
       <module fileurl="file://$PROJECT_DIR$/Leetcodes.iml" filepath="$PROJECT_DIR$/Leetcodes.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaximumGap/MaximumGap.iml" filepath="$PROJECT_DIR$/MaximumGap/MaximumGap.iml" />
       <module fileurl="file://$PROJECT_DIR$/MoveZeros/MoveZeros.iml" filepath="$PROJECT_DIR$/MoveZeros/MoveZeros.iml" />
-      <module fileurl="file://$PROJECT_DIR$/RemoveElement/RemoveElement.iml" filepath="$PROJECT_DIR$/RemoveElement/RemoveElement.iml" />
     </modules>
   </component>
 </project>
