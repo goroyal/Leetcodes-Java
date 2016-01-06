@@ -9,7 +9,6 @@
       <module fileurl="file://$PROJECT_DIR$/IntegerToWords/IntegerToWords.iml" filepath="$PROJECT_DIR$/IntegerToWords/IntegerToWords.iml" />
       <module fileurl="file://$PROJECT_DIR$/List/List.iml" filepath="$PROJECT_DIR$/List/List.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaximumGap/MaximumGap.iml" filepath="$PROJECT_DIR$/MaximumGap/MaximumGap.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MoveZeros/MoveZeros.iml" filepath="$PROJECT_DIR$/MoveZeros/MoveZeros.iml" />
       <module fileurl="file://$PROJECT_DIR$/PowerOfTwo/PowerOfTwo.iml" filepath="$PROJECT_DIR$/PowerOfTwo/PowerOfTwo.iml" />
       <module fileurl="file://$PROJECT_DIR$/leetcodes.iml" filepath="$PROJECT_DIR$/leetcodes.iml" />
     </modules>
