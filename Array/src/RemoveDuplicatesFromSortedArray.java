@@ -10,9 +10,26 @@
 public class RemoveDuplicatesFromSortedArray {
 	public static void main(String[] args){
     int[] nums = new int[]{1, 1, 2};
-
+		int result = new RemoveDuplicatesFromSortedArray().removeDuplicates(nums);
+		System.out.println("长度:"+result);
+		for (int i=0; i< result; i++) {
+			System.out.print(nums[i] + " ");
+		}
   }
 	public int removeDuplicates(int[] nums) {
-		return 0;
+		int p,q;
+		p = 0;
+		q = 1;
+		while (q < nums.length){
+			if (nums[p] == nums[q]){
+				q++;
+			}
+			if (q < nums.length && nums[p] < nums[q]){
+				p++;
+				nums[p] = nums[q];
+			}
+		}
+		return p+1;
 	}
 }
+
