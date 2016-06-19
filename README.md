@@ -1,3 +1,3 @@
 #Leetcodes
 
-这是我的Leetcode练习记录
+这是我的Leetcode Java版练习记录
