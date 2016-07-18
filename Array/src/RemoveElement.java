@@ -21,7 +21,11 @@ public class RemoveElement {
 	}
 
 	public static void main(String[] args){
-		int[] nums = {3,3};
+		int[] nums = {3,2,2,3};
 		System.out.println(new RemoveElement().removeElement(nums,3));
+		for (int num : nums){
+			System.out.print(num);
+		}
+		System.out.println();
 	}
 }
