@@ -13,9 +13,17 @@
  */
 public class RotateArray {
   public void rotate(int[] nums, int k) {
-    reverseWay(nums, k);
+    bubbleWay(nums, k);
+//    reverseWay(nums, k);
   }
 
+	/**
+   * 先整体做个倒置
+   * 再对左边和右边部分做倒置
+   * 时间复杂度:O(n)
+   * @param nums
+   * @param k
+   */
   private void reverseWay(int[] nums, int k){
     if (nums == null || nums.length == 0 || k < 0){
       throw new IllegalArgumentException("Illegal Argument");
@@ -40,9 +48,28 @@ public class RotateArray {
     }
   }
 
+	/**
+   * 冒泡方式,外层每次循环把数组最右边的数放到最左边,循环k次
+   * 时间复杂度:O(k*n)
+   * @param nums
+   * @param k
+   */
+  private void bubbleWay(int[] nums, int k){
+    if (nums == null || nums.length == 0 || k < 0){
+      throw new IllegalArgumentException("Illegal Argument");
+    }
+    for (int i = 0; i < k; i++){
+      for (int j = nums.length-1; j > 0; j--){
+        int temp = nums[j];
+        nums[j-1] = nums[j];
+        nums[j] = temp;
+      }
+    }
+  }
+
   public static void main(String[] args){
-    int[] nums = {1,2,3};
-    int k = 1;
+    int[] nums = {1,2,3,4,5};
+    int k = 2;
     new RotateArray().reverseWay(nums, k);
     for (int num : nums){
       System.out.println(num);
