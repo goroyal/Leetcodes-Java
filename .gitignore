@@ -1,6 +1,4 @@
-out/*
-build
-.idea*
+/.idea/
 *.iml
 **/.DS_Store
 .project
