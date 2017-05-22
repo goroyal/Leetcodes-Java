@@ -27,5 +27,6 @@ public class RemoveElement {
 			System.out.print(num);
 		}
 		System.out.println();
+
 	}
 }
