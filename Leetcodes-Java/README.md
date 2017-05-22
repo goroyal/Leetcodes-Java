@@ -1,3 +1,16 @@
-#Leetcodes
+# Leetcodes
+It is my leetcode exercises for Java.
 
-这是我的Leetcode Java版练习记录
+## Array
+
+## Binary Tree
+
+## Integer to Words
+
+## IP Address
+
+## List
+
+## Maximum Gap
+
+## Power of Two
