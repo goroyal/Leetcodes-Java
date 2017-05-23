@@ -1,0 +1,13 @@
+group 'com.muguan.leetcode'
+version '0.1'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+buildDir "${projectDir}/../out"
+
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
