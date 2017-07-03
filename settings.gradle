@@ -3,4 +3,5 @@ include 'PlusOne'
 include 'ReshapeMatrix'
 include 'ContainsDuplicate'
 include 'ContainsDuplicate2'
+include 'MissingNumber'
 
