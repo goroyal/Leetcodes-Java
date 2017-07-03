@@ -4,4 +4,5 @@ include 'ReshapeMatrix'
 include 'ContainsDuplicate'
 include 'ContainsDuplicate2'
 include 'MissingNumber'
+include 'TwoSum2'
 
