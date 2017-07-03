@@ -1,4 +1,6 @@
 rootProject.name = 'Leetcodes-Java'
 include 'PlusOne'
 include 'ReshapeMatrix'
+include 'ContainsDuplicate'
+include 'ContainsDuplicate2'
 
