@@ -16,7 +16,21 @@ public class SolutionTest {
 	@Test
 	public void givenExampleArray_ReturnSameResult() {
 		int[] input = new int[]{0, 1, 3};
-		int output = solution.missingNumber(input);
-		Assert.assertEquals(2, output);
+		int result = solution.missingNumber(input);
+		Assert.assertEquals(2, result);
+	}
+
+	@Test
+	public void givenArrayWithoutHead_ReturnZero() {
+		int[] input = new int[]{1, 2, 3};
+		int result = solution.missingNumber(input);
+		Assert.assertEquals(0, result);
+	}
+
+	@Test
+	public void giveArrayWithoutTail_ReturnNumSize() {
+		int[] input = new int[]{0, 1, 2};
+		int result = solution.missingNumber(input);
+		Assert.assertEquals(3, result);
 	}
 }
