@@ -33,4 +33,11 @@ public class SolutionTest {
 		int result = solution.missingNumber(input);
 		Assert.assertEquals(3, result);
 	}
+
+	@Test
+	public void givenArrayOutOfOrder_ReturnTheMissingNumber() {
+		int[] input = new int[]{2, 1, 4, 0};
+		int result = solution.missingNumber(input);
+		Assert.assertEquals(3, result);
+	}
 }

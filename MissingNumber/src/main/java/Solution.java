@@ -3,11 +3,11 @@
  */
 public class Solution {
 	public int missingNumber(int[] nums) {
+		int actualSum = 0;
 		for (int i = 0; i < nums.length; i++) {
-			if (nums[i] != i) {
-				return i;
-			}
+			actualSum += nums[i];
 		}
-		return nums.length;
+		int theorySum = nums.length * (nums.length + 1) / 2;
+		return theorySum - actualSum;
 	}
 }
