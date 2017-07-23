@@ -7,4 +7,5 @@ include 'MissingNumber'
 include 'TwoSum2'
 include 'TwoSum'
 include 'MajorityElement'
+include 'MergeSortedArray'
 
