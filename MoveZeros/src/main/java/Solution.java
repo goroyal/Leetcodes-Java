@@ -6,7 +6,7 @@
  * Minimize the total number of operations.
  * https://leetcode.com/problems/move-zeroes/
  */
-public class MoveZeros {
+public class Solution {
   public void moveZeroes(int[] nums) {
     int i = 0;
     for(int num : nums){
@@ -21,7 +21,7 @@ public class MoveZeros {
 
   public static void main(String[] args){
     int[] nums = new int[]{0,1,0,3,12};
-    new MoveZeros().moveZeroes(nums);
+    new Solution().moveZeroes(nums);
     for (int num : nums){
       System.out.println(num);
     }

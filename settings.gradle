@@ -9,3 +9,5 @@ include 'TwoSum'
 include 'MajorityElement'
 include 'MergeSortedArray'
 include 'MaximumGap'
+include 'MoveZeros'
+
