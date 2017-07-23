@@ -1,4 +1,4 @@
-# 167. [Two Sum II - Input array is sorted][1]
+# 1. [Two Sum][1]
 
 ## Tag
 Array
