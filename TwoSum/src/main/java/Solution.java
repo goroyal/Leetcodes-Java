@@ -5,7 +5,7 @@ import java.util.Map;
  * https://leetcode.com/problems/two-sum/
  * Created by dgq on 16/6/10.
  */
-public class TwoSum {
+public class Solution {
 	/**
 	 * Time complexity: O(n2)
 	 * Space complexity: O(1)
@@ -39,7 +39,7 @@ public class TwoSum {
 	public static void main(String[] args){
 		int[] nums = {2, 7, 11, 15};
 		int target = 10;
-		int[] result = new TwoSum().twoSum(nums, target);
+		int[] result = new Solution().twoSum(nums, target);
 		for (int item : result){
 			System.out.println(item);
 		}
