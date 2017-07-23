@@ -1,4 +1,4 @@
-# 88. [Missing Number][1]
+# 88. [Merge Sorted Array][1]
 
 ## Tag
 Array
