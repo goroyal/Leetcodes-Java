@@ -12,4 +12,5 @@ include 'MaximumGap'
 include 'MoveZeros'
 include 'ArrayPatitionI'
 include 'BestTimeBuyAndSellStock'
+include 'SearchInsertPosition'
 
