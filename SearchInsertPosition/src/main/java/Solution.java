@@ -3,6 +3,15 @@
  */
 public class Solution {
 	public int searchInsert(int[] nums, int target) {
-		return 0;
+		if (nums.length == 0){
+			return 0;
+		}
+		for (int i = 0; i < nums.length; i++){
+			if (nums[i] >= target){
+				return i;
+			}
+		}
+		// means that all elements in nums smaller than target
+		return nums.length;
 	}
 }
