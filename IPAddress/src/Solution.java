@@ -6,7 +6,7 @@ import java.util.List;
  * For example:
  * Given "25525511135",
  * return ["255.255.11.135", "255.255.111.35"]. (Order does not matter)
- * Created by I320015 on 9/28/2015.
+ * Created by dgq on 9/28/2015.
  */
 public class Solution {
 

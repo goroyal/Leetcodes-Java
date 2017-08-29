@@ -15,4 +15,5 @@ include 'BestTimeBuyAndSellStock'
 include 'SearchInsertPosition'
 include 'PascalTriangle'
 include 'PascalTriangle2'
+include 'RotateImage'
 

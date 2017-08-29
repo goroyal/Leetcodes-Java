@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Queue;
 
 /**
- * Created by I320015 on 1/6/2016.
+ * Created by dgq on 1/6/2016.
  */
 public class BinaryTreeLevelOrderTraversal {
   public static void main(String[] args){

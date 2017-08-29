@@ -1,5 +1,5 @@
 /**
- * Created by I320015 on 1/6/2016.
+ * Created by dgq on 1/6/2016.
  */
 public class RemoveDuplicates {
   public static void main(String[] args){
