@@ -5,6 +5,6 @@
 **/.DS_Store
 .project
 .settings/*
-/out/
+*/out/
 /.gradle/
 /build/
