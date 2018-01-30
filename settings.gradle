@@ -16,4 +16,7 @@ include 'SearchInsertPosition'
 include 'PascalTriangle'
 include 'PascalTriangle2'
 include 'RotateImage'
+include 'RemoveDuplicatesFromSortedArray'
+include 'RemoveElements'
+include 'RotateArray'
 
