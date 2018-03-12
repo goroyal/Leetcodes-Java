@@ -1,5 +1,6 @@
 # Leetcodes
 It is my leetcode exercises for Java.
+
 [![License][license-image]][license-url] [![Build Status][master-travis-image]][travis-url]
 
 ## Array
@@ -33,8 +34,8 @@ It is my leetcode exercises for Java.
 
 ## Power of Two
 
-[travis-url]: https://travis-ci.org//muguan/Leetcodes-Java
+[travis-url]: https://travis-ci.org/muguan/Leetcodes-Java
 [master-travis-image]: https://img.shields.io/travis/muguan/Leetcodes-Java/master.svg?style=flat-square
 
-[license-url]: https://github.com/G-Explorer/Earth-Backend-Java/blob/master/LICENSE
-[license-image]: https://img.shields.io/github/license/G-Explorer/Earth-Backend-Java.svg?style=flat-square
+[license-url]: https://github.com/muguan/Leetcodes-Java/blob/master/LICENSE
+[license-image]: https://img.shields.io/github/license/muguan/Leetcodes-Java.svg?style=flat-square
