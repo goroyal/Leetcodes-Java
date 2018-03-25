@@ -20,4 +20,6 @@ include 'RemoveDuplicatesFromSortedArray'
 include 'RemoveElements'
 include 'RotateArray'
 include 'RestoreIPAddress'
+include 'MaximumAverageSubArrayI'
+include 'MaximumProductOfThreeNumbers'
 
