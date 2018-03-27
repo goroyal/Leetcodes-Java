@@ -22,14 +22,16 @@ public class SolutionTest {
 		};
 		int row = 2;
 		int column = 4;
-		solution.matrixReshape(nums, row, column);
-		int[][] result = {
+
+		int[][] result = solution.matrixReshape(nums, row, column);
+
+		int[][] expect = {
 				{1, 2, 3, 4},
 				{5, 6, 7, 8}
 		};
-		Assert.assertEquals(2, nums.length);
-		Assert.assertEquals(4, nums[0].length);
-		Assert.assertArrayEquals(result, nums);
+		Assert.assertEquals(2, result.length);
+		Assert.assertEquals(4, result[0].length);
+		Assert.assertArrayEquals(expect, result);
 	}
 
 	@Test
@@ -39,11 +41,13 @@ public class SolutionTest {
 		};
 		int row = 1;
 		int column = 8;
-		solution.matrixReshape(nums, row, column);
-		Assert.assertEquals(1, nums.length);
-		Assert.assertEquals(8, nums[0].length);
-		int[][] result = {{1, 2, 3, 4, 5, 6, 7, 8}};
-		Assert.assertArrayEquals(result, nums);
+
+		int[][] result = solution.matrixReshape(nums, row, column);
+
+		Assert.assertEquals(1, result.length);
+		Assert.assertEquals(8, result[0].length);
+		int[][] expect = {{1, 2, 3, 4, 5, 6, 7, 8}};
+		Assert.assertArrayEquals(expect, result);
 	}
 
 	@Test
@@ -53,10 +57,12 @@ public class SolutionTest {
 		};
 		int row = 8;
 		int column = 1;
-		solution.matrixReshape(nums, row, column);
-		Assert.assertEquals(8, nums.length);
-		Assert.assertEquals(1, nums[0].length);
-		int[][] result = {
+
+		int[][] result = solution.matrixReshape(nums, row, column);
+
+		Assert.assertEquals(8, result.length);
+		Assert.assertEquals(1, result[0].length);
+		int[][] expect = {
 				{1},
 				{2},
 				{3},
@@ -66,7 +72,7 @@ public class SolutionTest {
 				{7},
 				{8}
 		};
-		Assert.assertArrayEquals(result, nums);
+		Assert.assertArrayEquals(expect, result);
 	}
 
 	@Test
@@ -74,14 +80,16 @@ public class SolutionTest {
 		int[][] nums = {{1, 2, 3, 4, 5, 6, 7, 8}};
 		int row = 2;
 		int column = 4;
-		solution.matrixReshape(nums, row, column);
-		Assert.assertEquals(2, nums.length);
-		Assert.assertEquals(4, nums[0].length);
-		int[][] result = {
+
+		int[][] result = solution.matrixReshape(nums, row, column);
+
+		Assert.assertEquals(2, result.length);
+		Assert.assertEquals(4, result[0].length);
+		int[][] expect = {
 				{1, 2, 3, 4},
 				{5, 6, 7, 8}
 		};
-		Assert.assertArrayEquals(result, nums);
+		Assert.assertArrayEquals(expect, result);
 	}
 
 	@Test
@@ -98,14 +106,16 @@ public class SolutionTest {
 		};
 		int row = 2;
 		int column = 4;
-		solution.matrixReshape(nums, row, column);
-		Assert.assertEquals(2, nums.length);
-		Assert.assertEquals(4, nums[0].length);
-		int[][] result = {
+
+		int[][] result = solution.matrixReshape(nums, row, column);
+
+		Assert.assertEquals(2, result.length);
+		Assert.assertEquals(4, result[0].length);
+		int[][] expect = {
 				{1, 2, 3, 4},
 				{5, 6, 7, 8}
 		};
-		Assert.assertArrayEquals(result, nums);
+		Assert.assertArrayEquals(expect, result);
 	}
 
 	@Test
@@ -115,12 +125,14 @@ public class SolutionTest {
 		};
 		int row = 3;
 		int column = 3;
-		solution.matrixReshape(nums, row, column);
+
+		int[][] result = solution.matrixReshape(nums, row, column);
+
 		Assert.assertEquals(4, nums.length);
 		Assert.assertEquals(2, nums[0].length);
-		int[][] result = {
+		int[][] expect = {
 				{1, 2}, {3, 4}, {5, 6}, {7, 8}
 		};
-		Assert.assertArrayEquals(result, nums);
+		Assert.assertArrayEquals(expect, result);
 	}
 }
