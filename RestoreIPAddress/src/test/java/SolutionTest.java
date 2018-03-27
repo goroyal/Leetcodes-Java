@@ -2,7 +2,6 @@ import java.util.List;
 
 import org.junit.Assert;
 import org.junit.Before;
-import org.junit.Test;
 
 public class SolutionTest {
   private Solution solution;
@@ -12,7 +11,7 @@ public class SolutionTest {
     solution = new Solution();
   }
 
-  @Test
+//  @Test
   public void fourZero() {
     String input = "0000";
     List<String> output = solution.restoreIpAddresses(input);
