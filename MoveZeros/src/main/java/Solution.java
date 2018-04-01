@@ -18,13 +18,4 @@ public class Solution {
       nums[i++] = 0;
     }
   }
-
-  public static void main(String[] args){
-    int[] nums = new int[]{0,1,0,3,12};
-    new Solution().moveZeroes(nums);
-    for (int num : nums){
-      System.out.println(num);
-    }
-
-  }
 }

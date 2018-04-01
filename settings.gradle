@@ -23,4 +23,5 @@ include 'RestoreIPAddress'
 include 'MaximumAverageSubArrayI'
 include 'MaximumProductOfThreeNumbers'
 include 'ToeplitzMatrix'
+include 'MaxConsecutiveOnes'
 
