@@ -24,4 +24,5 @@ include 'MaximumAverageSubArrayI'
 include 'MaximumProductOfThreeNumbers'
 include 'ToeplitzMatrix'
 include 'MaxConsecutiveOnes'
+include 'MaxAreaOfIsland'
 
