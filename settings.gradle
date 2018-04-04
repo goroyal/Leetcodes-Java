@@ -25,4 +25,5 @@ include 'MaximumProductOfThreeNumbers'
 include 'ToeplitzMatrix'
 include 'MaxConsecutiveOnes'
 include 'MaxAreaOfIsland'
+include 'MaxSubarray'
 
