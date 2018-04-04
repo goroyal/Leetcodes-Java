@@ -26,4 +26,5 @@ include 'ToeplitzMatrix'
 include 'MaxConsecutiveOnes'
 include 'MaxAreaOfIsland'
 include 'MaxSubarray'
+include 'BestTimeBuyAndSellStock2'
 
