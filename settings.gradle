@@ -27,4 +27,5 @@ include 'MaxConsecutiveOnes'
 include 'MaxAreaOfIsland'
 include 'MaxSubarray'
 include 'BestTimeBuyAndSellStock2'
+include '532.KdiffPairsInArray'
 
