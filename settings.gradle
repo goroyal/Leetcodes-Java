@@ -30,3 +30,5 @@ include '053.MaxSubarray'
 include '532.KdiffPairsInArray'
 include '581.ShortestUnsortedContinuousSubarray'
 include '448.FindDisappearedNumbers'
+include '414.ThirdMaximumNumber'
+
