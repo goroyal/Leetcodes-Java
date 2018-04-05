@@ -28,4 +28,5 @@ include '485.MaxConsecutiveOnes'
 include '695.MaxAreaOfIsland'
 include 'MaxSubarray'
 include '532.KdiffPairsInArray'
+include '581.ShortestUnsortedContinuousSubarray'
 
