@@ -18,4 +18,13 @@ public class SolutionTest {
 
 		Assert.assertEquals(0, profit);
 	}
+
+	@Test
+	public void example() {
+		int[] nums = {4, 3, 6, 7, 8, 9, 10, 4, 6, 3, 9};
+
+		int profit = solution.maxProfit(nums);
+
+		Assert.assertEquals(15, profit);
+	}
 }
