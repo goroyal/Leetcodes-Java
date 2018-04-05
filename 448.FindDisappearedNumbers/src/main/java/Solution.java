@@ -6,21 +6,18 @@ class Solution {
     List<Integer> result = new ArrayList<>(nums.length);
 
     for (int i = 0; i < nums.length; i++) {
-      if (nums[i] != nums[nums[i]-1]) {
-        swap(nums, i, nums[i]-1);
+	    // 第i个数的值所表示的位置，将它设为负的。
+	    int position = Math.abs(nums[i]) - 1;
+	    if (nums[position] > 0) {
+		    nums[position] = -nums[position];
       }
     }
+	  // 到最后，如果缺少哪些数，那么这些数所指向的位置的值就没有更改过
     for (int i = 0; i < nums.length; i++) {
-      if (nums[i] != nums[nums[i]-1]) {
-        result.add(i);
+	    if (nums[i] > 0) {
+		    result.add(i + 1);
       }
     }
     return result;
-  }
-
-  private void swap(int[] nums, int x, int y) {
-    int temp = nums[x];
-    nums[x] = nums[y];
-    nums[y] = temp;
   }
 }
