@@ -37,4 +37,5 @@ include '628.MaximumProductOfThreeNumbers'
 findProject(':628.MaximumProductOfThreeNumbers')?.name = '628.MaximumProductofThreeNumbers'
 include '724.FindPivotIndex'
 include '665.NondecreasingArray'
+include '746.MinCostClimbingStairs'
 
