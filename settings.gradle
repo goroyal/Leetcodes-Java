@@ -33,4 +33,6 @@ include '448.FindDisappearedNumbers'
 include '414.ThirdMaximumNumber'
 include '215.KthLargestElementInArray'
 include '605.CanPlaceFlowers'
+include '628.MaximumProductOfThreeNumbers'
+findProject(':628.MaximumProductOfThreeNumbers')?.name = '628.MaximumProductofThreeNumbers'
 
