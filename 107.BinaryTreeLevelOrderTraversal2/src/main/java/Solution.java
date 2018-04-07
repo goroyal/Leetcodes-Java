@@ -8,7 +8,7 @@ public class Solution {
 		return result;
 	}
 
-	public void makeLevels(List<List<Integer>> list, TreeNode root, int level) {
+	private void makeLevels(List<List<Integer>> list, TreeNode root, int level) {
 		if (root == null) {
 			return;
 		}
