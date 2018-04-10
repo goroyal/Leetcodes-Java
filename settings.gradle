@@ -48,4 +48,5 @@ include '108.ConvertSortedArraytoBinarySearchTree'
 include '109.ConvertSortedListtoBinarySearchTree'
 include '111.MinimumDepthofBinaryTree'
 include '198.HouseRobber'
+include '303.RangeSumQueryImmutable'
 
