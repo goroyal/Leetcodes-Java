@@ -53,4 +53,5 @@ include '213.HouseRobber2'
 include '5.LongestPalindromicSubstring'
 include '62.UniquePaths'
 include '63.UniquePaths2'
+include '64.MinimumPathSum'
 
