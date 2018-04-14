@@ -54,4 +54,5 @@ include '5.LongestPalindromicSubstring'
 include '62.UniquePaths'
 include '63.UniquePaths2'
 include '64.MinimumPathSum'
+include '120.Triangle'
 
