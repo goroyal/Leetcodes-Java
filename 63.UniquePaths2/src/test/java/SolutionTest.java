@@ -11,9 +11,15 @@ public class SolutionTest {
 	}
 
 	@Test
-	public void example1() {
-		int result = solution.uniquePathsWithLessSpace(3, 7);
+	public void example() {
+		int[][] obstacleGrid = {
+				{0, 0, 0},
+				{0, 1, 0},
+				{0, 0, 0}
+		};
 
-		Assert.assertEquals(28, result);
+		int result = solution.uniquePathsWithObstacles2(obstacleGrid);
+
+		Assert.assertEquals(2, result);
 	}
 }

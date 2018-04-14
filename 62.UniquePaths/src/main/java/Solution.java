@@ -15,6 +15,22 @@ class Solution {
 		return pathMatrix[m - 1][n - 1];
 	}
 
+	public int uniquePathsWithLessSpace(int m, int n) {
+		int[] paths = new int[n];
+
+		for (int i = 0; i < m; i++) {
+			for (int j = 0; j < n; j++) {
+				if (i == 0 || j == 0) {
+					paths[j] = 1;
+				} else if (j > 0) {
+					paths[j] += paths[j - 1];
+				}
+			}
+		}
+
+		return paths[n - 1];
+	}
+
 	/**
 	 * Recursive approach, will exceed time limit
 	 *
