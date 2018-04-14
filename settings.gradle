@@ -50,4 +50,5 @@ include '111.MinimumDepthofBinaryTree'
 include '198.HouseRobber'
 include '303.RangeSumQueryImmutable'
 include '213.HouseRobber2'
+include '5.LongestPalindromicSubstring'
 
