@@ -1,13 +1,11 @@
-# 66. [Plus One][1]
+# 066. [Plus One][1]
 
-## Tag
-Array
+## 题目描述
+给定用数字组成的一个**非空**数组表示一个非负整数，对这个非负整数加1，得到一个新的可以表示这个数的数组。
 
-## Description
-Given a non-negative integer represented as a **non-empty** array of digits, plus one to the integer.
+可以假定这个整数除了在为0的情况下，第一位肯定不是0。
 
-You may assume the integer do not contain any leading zero, except the number 0 itself.
-
-The digits are stored such that the most significant digit is at the head of the list.
+## 思路
+从数组最后开始往头部遍历，如果数字小于9，则直接加1，然后返回结束。否则这一位设为0，由于这一位设为0，下面一位就要进1，所以在下一轮循环的时候就要检查刚刚的情况。如果一直到最后都没有返回结束，那么整个数组长度就要加1位，初始的一位设为1。
 
 [1]: https://leetcode.com/problems/plus-one/#/description
