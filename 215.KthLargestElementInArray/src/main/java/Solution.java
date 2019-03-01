@@ -1,17 +1,28 @@
 class Solution {
 	public int findKthLargest(int[] nums, int k) {
-		return quickSortApproach(nums, k);
+		return quickSelectApproach(nums, k);
 	}
 
-	private int quickSortApproach(int[] nums, int k) {
-		quickSort(nums, 0, nums.length - 1, k);
+	private int quickSelectApproach(int[] nums, int k) {
+		quickSelect(nums, 0, nums.length - 1, k);
 		return nums[k - 1];
 	}
 
-	private void quickSort(int[] nums, int left, int right, int k) {
+	private void quickSelect(int[] nums, int left, int right, int k) {
 		if (left >= right) {
 			return;
 		}
+
+		int partitionIndex = partition(nums, left, right);
+
+		if (partitionIndex < k - 1) {
+			quickSelect(nums, partitionIndex + 1, right, k);
+		} else if (partitionIndex > k - 1) {
+			quickSelect(nums, left, partitionIndex - 1, k);
+		}
+	}
+
+	private int partition(int[] nums, int left, int right) {
 		int pivot = nums[right];
 		int partitionIndex = left;
 		for (int i = left; i < right; i++) {
@@ -21,11 +32,7 @@ class Solution {
 			}
 		}
 		swap(nums, partitionIndex, right);
-		if (partitionIndex < k - 1) {
-			quickSort(nums, partitionIndex + 1, right, k);
-		} else if (partitionIndex > k - 1) {
-			quickSort(nums, left, partitionIndex - 1, k);
-		}
+		return partitionIndex;
 	}
 
 	private int selectionSortApproach(int[] nums, int k) {
