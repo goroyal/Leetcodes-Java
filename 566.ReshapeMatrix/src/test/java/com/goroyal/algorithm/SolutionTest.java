@@ -1,4 +1,4 @@
-package com.muguan.leetcode;
+package com.goroyal.algorithm;
 
 import org.junit.Assert;
 import org.junit.Before;
