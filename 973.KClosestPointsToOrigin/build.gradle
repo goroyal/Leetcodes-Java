@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'com.muguan.leetcode'
+group 'com.goroyal.algorithm'
 version '0.1'
 
 sourceCompatibility = 1.8

@@ -1,4 +1,4 @@
-group 'com.muguan.leetcode'
+group 'com.goroyal.algorithm'
 version '0.1'
 
 apply plugin: 'java'

@@ -1,4 +1,4 @@
-package com.muguan.leetcode;
+package com.goroyal.algorithm;
 
 /**
  * Created by dgq on 2017/5/24.
