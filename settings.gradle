@@ -60,4 +60,7 @@ include '221.MaximalSquare'
 include 'ExtraCode'
 include '973.KClosestPointsToOrigin'
 include '235.LowestCommonAncestorOfBinarySearchTree'
+include '236.LowestCommonAncestorOfBinaryTree'
+include '078.Subsets'
+include '090.Subsets2'
 
