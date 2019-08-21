@@ -63,4 +63,5 @@ include '235.LowestCommonAncestorOfBinarySearchTree'
 include '236.LowestCommonAncestorOfBinaryTree'
 include '078.Subsets'
 include '090.Subsets2'
+include '442.FindAllDuplicatesInAnArray'
 
