@@ -1,31 +1,17 @@
 class Solution {
 	public boolean canPlaceFlowers(int[] flowerbed, int n) {
-		if (flowerbed.length == 0) {
-			return false;
-		}
-		if (flowerbed.length == 1) {
-			return flowerbed[0] == 0 && n <= 1 || n == 0;
-		}
-		int placedCount = 0;
-
-		for (int i = 0; i < flowerbed.length; i++) {
-			if (flowerbed[i] == 0 &&
-					(isBorderNeighborAvailable(flowerbed, i) || isLeftAndRightNeighborAvailable(flowerbed, i))) {
-				placedCount++;
-				flowerbed[i] = 1; // 种上花
+		int used = 0;
+		int i = 0;
+		while (i < flowerbed.length) {
+			if (flowerbed[i] == 0) {
+				if ((i == 0 || flowerbed[i-1] == 0) &&
+						(i == flowerbed.length - 1 || flowerbed[i+1] == 0)) {
+					used++;
+					flowerbed[i] = 1;
+				}
 			}
-			if (placedCount >= n) {
-				return true;
-			}
+			i++;
 		}
-		return false;
-	}
-
-	private boolean isBorderNeighborAvailable(int[] flowerbed, int i) {
-		return i == 0 && flowerbed[i + 1] == 0 || i == flowerbed.length - 1 && flowerbed[i - 1] == 0;
-	}
-
-	private boolean isLeftAndRightNeighborAvailable(int[] flowerbed, int i) {
-		return i > 0 && i < flowerbed.length - 1 && flowerbed[i - 1] == 0 && flowerbed[i + 1] == 0;
+		return used >= n;
 	}
 }
