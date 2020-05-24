@@ -68,4 +68,6 @@ include '160.IntersectionOfTwoLinkedLists'
 include '136.SingleNumber'
 include '141.LinkedListCycle'
 include '530.MinimumAbsoluteDifferenceInBST'
+include '637.AverageOfLevelsInBinaryTree'
+include '112.PathSum'
 
