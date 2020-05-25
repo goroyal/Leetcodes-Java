@@ -70,4 +70,7 @@ include '141.LinkedListCycle'
 include '530.MinimumAbsoluteDifferenceInBST'
 include '637.AverageOfLevelsInBinaryTree'
 include '112.PathSum'
+include '226.InvertBinaryTree'
+include '257.BinaryTreePaths'
+include '404.SumOfLeftLeaves'
 
