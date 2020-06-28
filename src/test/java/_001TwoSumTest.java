@@ -1,16 +1,9 @@
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
-
-/**
- * Created by dgq on 2017/7/23.
- */
-public class SolutionTest {
-  private Solution solution;
+public class _001TwoSumTest {
+  private _001TwoSum solution;
 
   @Before
   public void setUp() {
-    solution = new Solution();
+    solution = new _001TwoSum();
   }
 
   @Test
