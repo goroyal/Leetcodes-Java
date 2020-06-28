@@ -1,11 +1,15 @@
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+
 import java.util.HashSet;
 
 public class _973KClosestPointsToOriginTest {
-  private Solution solution;
+  private _973KClosestPointsToOrigin solution;
 
   @Before
   public void setUp() {
-    solution = new Solution();
+    solution = new _973KClosestPointsToOrigin();
   }
 
   @Test

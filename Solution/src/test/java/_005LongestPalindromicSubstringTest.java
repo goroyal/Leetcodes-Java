@@ -1,9 +1,13 @@
-public class _5LongestPalindromicSubstringTest {
-  private _5LongestPalindromicSubstring solution;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+
+public class _005LongestPalindromicSubstringTest {
+  private _005LongestPalindromicSubstring solution;
 
   @Before
   public void setUp() {
-    solution = new _5LongestPalindromicSubstring();
+    solution = new _005LongestPalindromicSubstring();
   }
 
   @Test

@@ -79,4 +79,5 @@ include '538. ConvertBSTToGreaterTree'
 include '543.DiameterOfBinaryTree '
 include '559.MaximumDepthOfN-aryTree'
 include '563.BinaryTreeTilt'
+include 'Solution'
 
