@@ -1,5 +1,4 @@
-public class Solution {
-
+public class _538ConvertBSTToGreaterTree {
   private int sum = 0;
 
   public TreeNode convertBST(TreeNode root) {
@@ -10,15 +9,5 @@ public class Solution {
       convertBST(root.left);
     }
     return root;
-  }
-
-  static class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-      val = x;
-    }
   }
 }

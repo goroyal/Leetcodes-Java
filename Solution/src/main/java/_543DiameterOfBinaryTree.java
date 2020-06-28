@@ -1,5 +1,4 @@
-public class Solution {
-
+public class _543DiameterOfBinaryTree {
   public int diameterOfBinaryTree(TreeNode root) {
     if (root == null) {
       return 0;
@@ -21,15 +20,5 @@ public class Solution {
     int left = 1 + depth(root.left);
     int right = 1 + depth(root.right);
     return Math.max(left, right);
-  }
-
-  static class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-      val = x;
-    }
   }
 }

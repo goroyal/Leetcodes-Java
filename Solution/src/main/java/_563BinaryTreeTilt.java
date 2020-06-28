@@ -1,4 +1,4 @@
-public class Solution {
+public class _563BinaryTreeTilt {
   public int findTilt(TreeNode root) {
     if (root == null) {
       return 0;
@@ -13,15 +13,5 @@ public class Solution {
       return 0;
     }
     return node.val + getSum(node.left) + getSum(node.right);
-  }
-
-  static class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-      val = x;
-    }
   }
 }
