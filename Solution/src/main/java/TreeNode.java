@@ -1,5 +1,5 @@
 /**
- * Created by dgq on 10/27/2015.
+ * Created by goroyal on 10/27/2015.
  */
 public class TreeNode {
     int val;
