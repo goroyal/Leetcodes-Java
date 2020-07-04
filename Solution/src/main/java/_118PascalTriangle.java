@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+public class _118PascalTriangle {
   public List<List<Integer>> generate(int numRows) {
     List<List<Integer>> result = new ArrayList<>();
     if (numRows == 0){

@@ -4,12 +4,12 @@ import org.junit.Test;
 
 import java.util.List;
 
-public class SolutionTest {
-  private _169MajorityElement solution;
+public class _118PascalTriangleTest {
+  private _118PascalTriangle solution;
 
   @Before
   public void setUp(){
-    solution = new _169MajorityElement();
+    solution = new _118PascalTriangle();
   }
 
   @Test
