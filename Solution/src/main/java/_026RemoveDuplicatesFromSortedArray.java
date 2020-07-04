@@ -7,7 +7,7 @@
  * It doesn't matter what you leave beyond the new length.
  * https://leetcode.com/problems/remove-duplicates-from-sorted-array/
  */
-public class Solution {
+public class _026RemoveDuplicatesFromSortedArray {
   public int removeDuplicates(int[] nums) {
     int p,q;
     p = 0;

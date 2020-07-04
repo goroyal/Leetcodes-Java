@@ -1,4 +1,4 @@
-class Solution {
+class _70ClimbingStairs {
 	public int climbStairs(int n) {
 		int a = 1, b = 1 + 1;
 		if (n == 1) {

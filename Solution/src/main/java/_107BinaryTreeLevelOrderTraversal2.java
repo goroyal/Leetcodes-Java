@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.List;
 
-public class Solution {
+public class _107BinaryTreeLevelOrderTraversal2 {
 	public List<List<Integer>> levelOrderBottom(TreeNode root) {
 		List<List<Integer>> result = new LinkedList<>();
 		makeLevels(result, root, 0);

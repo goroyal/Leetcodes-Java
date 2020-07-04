@@ -4,7 +4,7 @@
  * https://leetcode.com/problems/remove-element/
  * Created by goroyal on 15/12/6.
  */
-public class Solution {
+public class _027RemoveElements {
   public int removeElement(int[] nums, int val) {
     int p=0,q=0;
     while (q < nums.length){

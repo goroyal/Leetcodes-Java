@@ -4,7 +4,7 @@ import java.util.List;
 /**
  * 从一个集合里面找出所有可能的子集。原集合不含重复数字。
  */
-public class Solution {
+public class _078Subsets {
   public List<List<Integer>> subsets(int[] nums) {
     List<List<Integer>> result = new ArrayList<>();
 

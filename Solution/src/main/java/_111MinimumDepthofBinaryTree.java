@@ -1,4 +1,4 @@
-public class Solution {
+public class _111MinimumDepthofBinaryTree {
 	public int minDepth(TreeNode root) {
 		if (root == null) {
 			return 0;

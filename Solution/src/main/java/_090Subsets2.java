@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Solution {
+public class _090Subsets2 {
   public List<List<Integer>> subsetsWithDup(int[] nums) {
     List<List<Integer>> result = new ArrayList<>();
     if (nums == null || nums.length == 0) {

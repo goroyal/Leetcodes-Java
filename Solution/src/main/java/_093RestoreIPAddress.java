@@ -8,7 +8,7 @@ import java.util.List;
  * return ["255.255.11.135", "255.255.111.35"]. (Order does not matter)
  * Created by goroyal on 9/28/2015.
  */
-public class Solution {
+public class _093RestoreIPAddress {
 
     public List<String> restoreIpAddresses(String s) {
         List<String> list = new ArrayList<>();

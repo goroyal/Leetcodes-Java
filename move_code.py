@@ -15,7 +15,7 @@ module_regex = re.compile(r'\d\d.*')
 sub_dirs = [d for d in os.listdir('.') if os.path.isdir(d) and module_regex.search(d)]
 for dir in sub_dirs:
     original_source_path = dir + src + original_source_name
-    original_test_path = dir + src + original_test_name
+    original_test_path = dir + test + original_test_name
     original_readme_path = dir + "/" + readme
 
     exist_source = exists(original_source_path)
@@ -23,7 +23,7 @@ for dir in sub_dirs:
     exist_readme = exists(original_readme_path)
     if exist_test:
         new_test_name = ('_' + dir).replace('.', '') + 'Test.java'
-        new_test_path = target_module + src + new_test_name
+        new_test_path = target_module + test + new_test_name
         shutil.move(original_test_path, new_test_path)
     if exist_readme:
         new_readme_name = dir + ".md"

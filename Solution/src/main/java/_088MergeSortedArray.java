@@ -5,7 +5,7 @@ import java.util.Arrays;
  * You may assume that nums1 has enough space (size that is greater or equal to m + n) to hold additional elements from nums2.
  * The number of elements initialized in nums1 and nums2 are m and n respectively.
  */
-public class Solution {
+public class _088MergeSortedArray {
   public static void main(String[] args){
     int[] nums1 = new int[10];
     int[] nums2 = {2,4,5,8};
@@ -13,7 +13,7 @@ public class Solution {
     nums1[1] = 3;
     nums1[2] = 9;
 
-    new Solution().merge(nums1,3,nums2,4);
+    new _088MergeSortedArray().merge(nums1,3,nums2,4);
     for (int i=0; i<7; i++){
       System.out.println(nums1[i]);
     }

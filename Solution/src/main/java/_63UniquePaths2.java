@@ -1,4 +1,4 @@
-class Solution {
+class _63UniquePaths2 {
 	/**
 	 * 有障碍，矩阵中的1表示障碍，0表示可以通过
 	 *

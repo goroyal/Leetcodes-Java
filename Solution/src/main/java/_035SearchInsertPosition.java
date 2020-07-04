@@ -1,7 +1,7 @@
 /**
  * Created by goroyal on 2017/8/27.
  */
-public class Solution {
+public class _035SearchInsertPosition {
 	public int searchInsert(int[] nums, int target) {
 		if (nums.length == 0){
 			return 0;

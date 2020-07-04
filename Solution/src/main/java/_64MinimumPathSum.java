@@ -1,4 +1,4 @@
-class Solution {
+class _64MinimumPathSum {
 	public int minPathSum(int[][] grid) {
 		int columns = grid[0].length;
 		int[] sum = new int[columns];

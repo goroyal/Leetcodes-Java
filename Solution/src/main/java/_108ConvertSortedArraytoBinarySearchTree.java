@@ -1,4 +1,4 @@
-public class Solution {
+public class _108ConvertSortedArraytoBinarySearchTree {
 	public TreeNode sortedArrayToBST(int[] nums) {
 		if (nums.length == 0) {
 			return null;

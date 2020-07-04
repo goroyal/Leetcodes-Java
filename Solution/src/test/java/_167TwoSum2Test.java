@@ -3,11 +3,11 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class _167TwoSum2Test {
-	private _169MajorityElement solution;
+	private _167TwoSum2 solution;
 
 	@Before
 	public void setUp() {
-		solution = new _169MajorityElement();
+		solution = new _167TwoSum2();
 	}
 
 	@Test

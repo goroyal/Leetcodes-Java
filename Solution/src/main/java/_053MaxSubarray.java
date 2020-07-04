@@ -1,4 +1,4 @@
-class Solution {
+class _053MaxSubarray {
 	public int maxSubArray(int[] nums) {
 		int maxResult = nums[0];
 		int maxCurrent = nums[0];

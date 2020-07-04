@@ -1,4 +1,4 @@
-class Solution {
+class _62UniquePaths {
 	public int uniquePaths(int m, int n) {
 		int[][] pathMatrix = new int[m][n];
 

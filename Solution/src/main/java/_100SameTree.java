@@ -1,4 +1,4 @@
-class Solution {
+class _100SameTre {
 	public boolean isSameTree(TreeNode p, TreeNode q) {
 		if (p == null && q == null) {
 			return true;
@@ -8,16 +8,5 @@ class Solution {
 		}
 		return p.val == q.val &&
 				isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
-	}
-
-
-	static class TreeNode {
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x) {
-			val = x;
-		}
 	}
 }

@@ -1,4 +1,4 @@
-public class Solution {
+public class _109ConvertSortedListtoBinarySearchTree {
 	public TreeNode sortedListToBST(ListNode head) {
 		if (head == null) {
 			return null;

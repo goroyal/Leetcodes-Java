@@ -1,4 +1,4 @@
-public class Solution {
+public class _101SymmetricTree {
 	public boolean isSymmetric(TreeNode root) {
 		if (root == null) {
 			return true;

@@ -1,4 +1,4 @@
-public class Solution {
+public class _112PathSum {
   public boolean hasPathSum(TreeNode root, int sum) {
     if (root == null) {
       return false;

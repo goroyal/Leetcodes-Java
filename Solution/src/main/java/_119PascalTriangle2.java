@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+public class _119PascalTriangle2 {
   public List<Integer> getRow(int rowIndex) {
     List<Integer> list = new ArrayList<>();
     if (rowIndex < 0) {
