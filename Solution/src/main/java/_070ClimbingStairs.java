@@ -1,4 +1,4 @@
-class _70ClimbingStairs {
+class _070ClimbingStairs {
 	public int climbStairs(int n) {
 		int a = 1, b = 1 + 1;
 		if (n == 1) {
