@@ -1,4 +1,4 @@
-class _62UniquePaths {
+class _062UniquePaths {
 	public int uniquePaths(int m, int n) {
 		int[][] pathMatrix = new int[m][n];
 
