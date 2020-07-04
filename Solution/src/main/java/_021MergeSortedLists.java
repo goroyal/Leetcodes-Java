@@ -1,5 +1,5 @@
 /**
- * Created by dgq on 1/6/2016.
+ * Created by goroyal on 1/6/2016.
  */
 public class _021MergeSortedLists {
   public static void main(String[] args){

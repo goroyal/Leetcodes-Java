@@ -5,11 +5,11 @@ import org.junit.Test;
 import java.util.List;
 
 public class SolutionTest {
-  private Solution solution;
+  private _169MajorityElement solution;
 
   @Before
   public void setUp(){
-    solution = new Solution();
+    solution = new _169MajorityElement();
   }
 
   @Test

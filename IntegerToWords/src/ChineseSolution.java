@@ -2,7 +2,7 @@
  * 123 -> 一百二十三
  * 1234 -> 一千二百三十四
  * 12345 -> 一万二千三百四十五
- * Created by dgq on 15/9/7.
+ * Created by goroyal on 15/9/7.
  */
 public class ChineseSolution {
 	private String[] disits = new String[]{"〇","一","二","三","四","五","六","七","八","九"};

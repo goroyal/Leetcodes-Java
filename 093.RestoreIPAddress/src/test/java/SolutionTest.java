@@ -4,11 +4,11 @@ import org.junit.Assert;
 import org.junit.Before;
 
 public class SolutionTest {
-  private Solution solution;
+  private _169MajorityElement solution;
 
   @Before
   public void setUp() {
-    solution = new Solution();
+    solution = new _169MajorityElement();
   }
 
 //  @Test

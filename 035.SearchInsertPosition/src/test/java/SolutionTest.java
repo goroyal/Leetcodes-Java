@@ -3,7 +3,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 /**
- * Created by dgq on 2017/8/27.
+ * Created by goroyal on 2017/8/27.
  */
 public class SolutionTest {
   private Solution solution;

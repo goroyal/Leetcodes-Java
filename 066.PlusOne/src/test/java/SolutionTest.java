@@ -3,14 +3,14 @@ import org.junit.Before;
 import org.junit.Test;
 
 /**
- * Created by dgq on 2017/7/23.
+ * Created by goroyal on 2017/7/23.
  */
 public class SolutionTest {
-	private Solution solution;
+	private _169MajorityElement solution;
 
 	@Before
 	public void setUp() {
-		solution = new Solution();
+		solution = new _169MajorityElement();
 	}
 
 	@Test
