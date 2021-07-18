@@ -8,18 +8,10 @@ public class _110BalancedBinaryTree {
     if (root == null){
       return true;
     }
-    if (!(isBalanced(root.left))){
+    if (Math.abs(getHeight(root.left) - getHeight(root.right)) > 1){
       return false;
     }
-    if (!isBalanced(root.right)){
-      return false;
-    }
-    int leftHeight = getHeight(root.left);
-    int rightHeght = getHeight(root.right);
-    if (Math.abs(leftHeight-rightHeght) > 1){
-      return false;
-    }
-    return true;
+    return isBalanced(root.left) && isBalanced(root.right);
   }
 
   private int getHeight(TreeNode node){
@@ -31,12 +23,6 @@ public class _110BalancedBinaryTree {
     }
     int leftHeight = getHeight(node.left);
     int rightHeight = getHeight(node.right);
-    if (node.left == null){
-      return rightHeight+1;
-    }
-    if (node.right == null){
-      return leftHeight+1;
-    }
-    return (leftHeight>rightHeight) ? leftHeight+1 : rightHeight+1;
+    return 1 + Math.max(leftHeight, rightHeight);
   }
 }
