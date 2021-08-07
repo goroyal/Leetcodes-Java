@@ -1,11 +1,11 @@
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class _561ArrayPatitionITest {
   private _561ArrayPatitionI solution;
 
-  @Before
+  @BeforeEach
   public void setUp() {
     solution = new _561ArrayPatitionI();
   }
@@ -14,13 +14,13 @@ public class _561ArrayPatitionITest {
   public void onlyOnePair_ReturnTheMinOneOfThePair() {
     int[] nums = {1, 2};
     int result = solution.arrayPairSum(nums);
-    Assert.assertEquals(1, result);
+    Assertions.assertEquals(1, result);
   }
 
   @Test
   public void twoPairs() {
     int[] nums = {1, 6, 5, 2};
     int result = solution.arrayPairSum(nums);
-    Assert.assertEquals(6, result);
+    Assertions.assertEquals(6, result);
   }
 }

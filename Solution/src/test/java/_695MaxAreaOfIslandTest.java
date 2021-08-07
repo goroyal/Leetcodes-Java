@@ -1,11 +1,11 @@
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class _695MaxAreaOfIslandTest {
   private _695MaxAreaOfIsland solution;
 
-  @Before
+  @BeforeEach
   public void setUp() {
     solution = new _695MaxAreaOfIsland();
   }
@@ -24,7 +24,7 @@ public class _695MaxAreaOfIslandTest {
 
     int result = solution.maxAreaOfIsland(grid);
 
-    Assert.assertEquals(6, result);
+    Assertions.assertEquals(6, result);
   }
 
   @Test
@@ -33,7 +33,7 @@ public class _695MaxAreaOfIslandTest {
 
     int result = solution.maxAreaOfIsland(grid);
 
-    Assert.assertEquals(0, result);
+    Assertions.assertEquals(0, result);
   }
 
   @Test
@@ -47,7 +47,7 @@ public class _695MaxAreaOfIslandTest {
 
     int result = solution.maxAreaOfIsland(grid);
 
-    Assert.assertEquals(4, result);
+    Assertions.assertEquals(4, result);
   }
 
 }

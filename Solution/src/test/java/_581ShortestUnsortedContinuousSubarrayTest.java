@@ -1,11 +1,11 @@
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class _581ShortestUnsortedContinuousSubarrayTest {
   private _581ShortestUnsortedContinuousSubarray solution;
 
-  @Before
+  @BeforeEach
   public void setUp() {
     solution = new _581ShortestUnsortedContinuousSubarray();
   }
@@ -16,7 +16,7 @@ public class _581ShortestUnsortedContinuousSubarrayTest {
 
     int result = solution.findUnsortedSubarray(nums);
 
-    Assert.assertEquals(5, result);
+    Assertions.assertEquals(5, result);
   }
 
   @Test
@@ -25,7 +25,7 @@ public class _581ShortestUnsortedContinuousSubarrayTest {
 
     int result = solution.findUnsortedSubarray(nums);
 
-    Assert.assertEquals(0, result);
+    Assertions.assertEquals(0, result);
   }
 
   @Test
@@ -34,7 +34,7 @@ public class _581ShortestUnsortedContinuousSubarrayTest {
 
     int result = solution.findUnsortedSubarray(nums);
 
-    Assert.assertEquals(6, result);
+    Assertions.assertEquals(6, result);
   }
 
   //	@Test
@@ -43,6 +43,6 @@ public class _581ShortestUnsortedContinuousSubarrayTest {
 
     int result = solution.findUnsortedSubarray(nums);
 
-    Assert.assertEquals(4, result);
+    Assertions.assertEquals(4, result);
   }
 }

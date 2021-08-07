@@ -1,11 +1,11 @@
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class _001TwoSumTest {
   private _001TwoSum solution;
 
-  @Before
+  @BeforeEach
   public void setUp() {
     solution = new _001TwoSum();
   }
@@ -15,9 +15,9 @@ public class _001TwoSumTest {
     int[] nums = {2, 7, 11, 15};
     int target = 13;
     int[] result = solution.twoSum(nums, target);
-    Assert.assertEquals(result.length, 2);
-    Assert.assertEquals(result[0], 0);
-    Assert.assertEquals(result[1], 2);
+    Assertions.assertEquals(result.length, 2);
+    Assertions.assertEquals(result[0], 0);
+    Assertions.assertEquals(result[1], 2);
   }
 
   @Test
@@ -25,9 +25,9 @@ public class _001TwoSumTest {
     int[] nums = {2, 7, 11, 15};
     int target = 13;
     int[] result = solution.twoSum2(nums, target);
-    Assert.assertEquals(result.length, 2);
-    Assert.assertEquals(result[0], 0);
-    Assert.assertEquals(result[1], 2);
+    Assertions.assertEquals(result.length, 2);
+    Assertions.assertEquals(result[0], 0);
+    Assertions.assertEquals(result[1], 2);
   }
 
   @Test
@@ -35,9 +35,9 @@ public class _001TwoSumTest {
     int[] nums = {15, 11, 7, 2};
     int target = 13;
     int[] result = solution.twoSum(nums, target);
-    Assert.assertEquals(result.length, 2);
-    Assert.assertEquals(result[0], 1);
-    Assert.assertEquals(result[1], 3);
+    Assertions.assertEquals(result.length, 2);
+    Assertions.assertEquals(result[0], 1);
+    Assertions.assertEquals(result[1], 3);
   }
 
   @Test
@@ -45,8 +45,8 @@ public class _001TwoSumTest {
     int[] nums = {15, 11, 7, 2};
     int target = 13;
     int[] result = solution.twoSum2(nums, target);
-    Assert.assertEquals(result.length, 2);
-    Assert.assertEquals(result[0], 1);
-    Assert.assertEquals(result[1], 3);
+    Assertions.assertEquals(result.length, 2);
+    Assertions.assertEquals(result[0], 1);
+    Assertions.assertEquals(result[1], 3);
   }
 }

@@ -1,11 +1,11 @@
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class _236LowestCommonAncestorOfBinaryTreeTest {
   private _236LowestCommonAncestorOfBinaryTree solution;
 
-  @Before
+  @BeforeEach
   public void  setUp() {
     solution = new _236LowestCommonAncestorOfBinaryTree();
   }
@@ -19,7 +19,7 @@ public class _236LowestCommonAncestorOfBinaryTreeTest {
 
     TreeNode result = solution.lowestCommonAncestor(root, p, q);
 
-    Assert.assertSame(root, result);
+    Assertions.assertSame(root, result);
   }
 
   @Test
@@ -31,7 +31,7 @@ public class _236LowestCommonAncestorOfBinaryTreeTest {
 
     TreeNode result = solution.lowestCommonAncestor(root, p, q);
 
-    Assert.assertSame(p, result);
+    Assertions.assertSame(p, result);
   }
 
   private TreeNode createBinaryTree(Integer[] nodes) {

@@ -1,11 +1,11 @@
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class _221MaximalSquareTest {
   private _221MaximalSquare solution;
 
-  @Before
+  @BeforeEach
   public void setUp() {
     solution = new _221MaximalSquare();
   }
@@ -19,7 +19,7 @@ public class _221MaximalSquareTest {
         {'1', '0', '0', '1', '0'}
     };
     int result = solution.maximalSquareLessSpace(matrix);
-    Assert.assertEquals(4, result);
+    Assertions.assertEquals(4, result);
   }
 
   @Test
@@ -32,6 +32,6 @@ public class _221MaximalSquareTest {
         {'0', '1', '1', '1', '1'}
     };
     int result = solution.maximalSquareLessSpace(matrix);
-    Assert.assertEquals(4, result);
+    Assertions.assertEquals(4, result);
   }
 }

@@ -1,13 +1,13 @@
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import java.util.HashSet;
 
 public class _973KClosestPointsToOriginTest {
   private _973KClosestPointsToOrigin solution;
 
-  @Before
+  @BeforeEach
   public void setUp() {
     solution = new _973KClosestPointsToOrigin();
   }
@@ -21,8 +21,8 @@ public class _973KClosestPointsToOriginTest {
     int[][] result = solution.kClosest(points, 1);
     int[] expected = {-2, 2};
 
-    Assert.assertEquals(1, result.length);
-    Assert.assertArrayEquals(expected, result[0]);
+    Assertions.assertEquals(1, result.length);
+    Assertions.assertArrayEquals(expected, result[0]);
   }
 
   @Test
@@ -40,9 +40,9 @@ public class _973KClosestPointsToOriginTest {
     expected.add(point1);
     expected.add(point3);
 
-    Assert.assertEquals(2, result.length);
-    Assert.assertTrue(expected.contains(result[0]));
-    Assert.assertTrue(expected.contains(result[1]));
-    Assert.assertNotSame(result[0], result[1]);
+    Assertions.assertEquals(2, result.length);
+    Assertions.assertTrue(expected.contains(result[0]));
+    Assertions.assertTrue(expected.contains(result[1]));
+    Assertions.assertNotSame(result[0], result[1]);
   }
 }

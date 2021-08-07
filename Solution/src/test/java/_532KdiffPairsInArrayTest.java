@@ -1,11 +1,11 @@
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class _532KdiffPairsInArrayTest {
   private _532KdiffPairsInArray solution;
 
-  @Before
+  @BeforeEach
   public void setUp() {
     solution = new _532KdiffPairsInArray();
   }
@@ -17,7 +17,7 @@ public class _532KdiffPairsInArrayTest {
 
     int result = solution.findPairs(nums, k);
 
-    Assert.assertEquals(2, result);
+    Assertions.assertEquals(2, result);
   }
 
   @Test
@@ -27,7 +27,7 @@ public class _532KdiffPairsInArrayTest {
 
     int result = solution.findPairs(nums, k);
 
-    Assert.assertEquals(4, result);
+    Assertions.assertEquals(4, result);
   }
 
   @Test
@@ -37,7 +37,7 @@ public class _532KdiffPairsInArrayTest {
 
     int result = solution.findPairs(nums, k);
 
-    Assert.assertEquals(1, result);
+    Assertions.assertEquals(1, result);
   }
 
   @Test
@@ -47,6 +47,6 @@ public class _532KdiffPairsInArrayTest {
 
     int result = solution.findPairs(nums, k);
 
-    Assert.assertEquals(1, result);
+    Assertions.assertEquals(1, result);
   }
 }

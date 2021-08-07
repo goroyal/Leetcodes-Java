@@ -1,11 +1,11 @@
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class _724FindPivotIndexTest {
   private _724FindPivotIndex solution;
 
-  @Before
+  @BeforeEach
   public void setUp() {
     solution = new _724FindPivotIndex();
   }
@@ -16,7 +16,7 @@ public class _724FindPivotIndexTest {
 
     int result = solution.pivotIndex(nums);
 
-    Assert.assertEquals(3, result);
+    Assertions.assertEquals(3, result);
   }
 
   @Test
@@ -25,6 +25,6 @@ public class _724FindPivotIndexTest {
 
     int result = solution.pivotIndex(nums);
 
-    Assert.assertEquals(-1, result);
+    Assertions.assertEquals(-1, result);
   }
 }

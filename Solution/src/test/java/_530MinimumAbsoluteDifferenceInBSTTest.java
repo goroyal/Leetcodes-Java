@@ -1,11 +1,11 @@
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class _530MinimumAbsoluteDifferenceInBSTTest {
   private _530MinimumAbsoluteDifferenceInBST solution;
 
-  @Before
+  @BeforeEach
   public void Setup() {
     solution = new _530MinimumAbsoluteDifferenceInBST();
   }
@@ -20,6 +20,6 @@ public class _530MinimumAbsoluteDifferenceInBSTTest {
     right.left = rightLeft;
 
     int result = solution.getMinimumDifference(root);
-    Assert.assertEquals(1, result);
+    Assertions.assertEquals(1, result);
   }
 }
