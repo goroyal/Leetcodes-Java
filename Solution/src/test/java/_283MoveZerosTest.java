@@ -1,11 +1,11 @@
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class _283MoveZerosTest {
   private _283MoveZeros solution;
 
-  @Before
+  @BeforeEach
   public void setUp() {
     solution = new _283MoveZeros();
   }
@@ -17,6 +17,6 @@ public class _283MoveZerosTest {
     solution.moveZeroes(nums);
 
     int[] expected = {1, 3, 12, 0, 0};
-    Assert.assertArrayEquals(expected, nums);
+    Assertions.assertArrayEquals(expected, nums);
   }
 }

@@ -1,11 +1,11 @@
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class _746MinCostClimbingStairsTest {
   private _746MinCostClimbingStairs solution;
 
-  @Before
+  @BeforeEach
   public void setUp() {
     solution = new _746MinCostClimbingStairs();
   }
@@ -16,7 +16,7 @@ public class _746MinCostClimbingStairsTest {
 
     int result = solution.minCostClimbingStairs(nums);
 
-    Assert.assertEquals(15, result);
+    Assertions.assertEquals(15, result);
   }
 
   @Test
@@ -25,6 +25,6 @@ public class _746MinCostClimbingStairsTest {
 
     int result = solution.minCostClimbingStairs(nums);
 
-    Assert.assertEquals(6, result);
+    Assertions.assertEquals(6, result);
   }
 }

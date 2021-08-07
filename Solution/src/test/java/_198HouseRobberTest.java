@@ -1,11 +1,11 @@
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class _198HouseRobberTest {
   private _198HouseRobber solution;
 
-  @Before
+  @BeforeEach
   public void setUp() {
     solution = new _198HouseRobber();
   }
@@ -16,7 +16,7 @@ public class _198HouseRobberTest {
 
     int result = solution.rob(nums);
 
-    Assert.assertEquals(2, result);
+    Assertions.assertEquals(2, result);
   }
 
   @Test
@@ -25,7 +25,7 @@ public class _198HouseRobberTest {
 
     int result = solution.rob(nums);
 
-    Assert.assertEquals(4, result);
+    Assertions.assertEquals(4, result);
   }
 
   @Test
@@ -34,7 +34,7 @@ public class _198HouseRobberTest {
 
     int result = solution.rob(nums);
 
-    Assert.assertEquals(7, result);
+    Assertions.assertEquals(7, result);
   }
 
   @Test
@@ -43,6 +43,6 @@ public class _198HouseRobberTest {
 
     int result = solution.rob(nums);
 
-    Assert.assertEquals(6, result);
+    Assertions.assertEquals(6, result);
   }
 }

@@ -1,5 +1,5 @@
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
@@ -12,8 +12,8 @@ public class _442FindAllDuplicatesInAnArrayTest {
 
     List<Integer> result = solution.findDuplicates(input);
 
-    Assert.assertEquals(1, result.size());
-    Assert.assertEquals(3, result.get(0).intValue());
+    Assertions.assertEquals(1, result.size());
+    Assertions.assertEquals(3, result.get(0).intValue());
   }
 
   @Test
@@ -22,8 +22,8 @@ public class _442FindAllDuplicatesInAnArrayTest {
 
     List<Integer> result = solution.findDuplicates(input);
 
-    Assert.assertEquals(2, result.size());
-    Assert.assertTrue(result.contains(2));
-    Assert.assertTrue(result.contains(3));
+    Assertions.assertEquals(2, result.size());
+    Assertions.assertTrue(result.contains(2));
+    Assertions.assertTrue(result.contains(3));
   }
 }

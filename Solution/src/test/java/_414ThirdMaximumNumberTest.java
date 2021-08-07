@@ -1,11 +1,11 @@
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class _414ThirdMaximumNumberTest {
   private _414ThirdMaximumNumber solution;
 
-  @Before
+  @BeforeEach
   public void setUp() {
     solution = new _414ThirdMaximumNumber();
   }
@@ -16,7 +16,7 @@ public class _414ThirdMaximumNumberTest {
 
     int result = solution.thirdMax(nums);
 
-    Assert.assertEquals(1, result);
+    Assertions.assertEquals(1, result);
   }
 
   @Test
@@ -25,7 +25,7 @@ public class _414ThirdMaximumNumberTest {
 
     int result = solution.thirdMax(nums);
 
-    Assert.assertEquals(1, result);
+    Assertions.assertEquals(1, result);
   }
 
   @Test
@@ -34,7 +34,7 @@ public class _414ThirdMaximumNumberTest {
 
     int result = solution.thirdMax(nums);
 
-    Assert.assertEquals(2, result);
+    Assertions.assertEquals(2, result);
   }
 
   @Test
@@ -43,6 +43,6 @@ public class _414ThirdMaximumNumberTest {
 
     int result = solution.thirdMax(nums);
 
-    Assert.assertEquals(1, result);
+    Assertions.assertEquals(1, result);
   }
 }

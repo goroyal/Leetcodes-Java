@@ -1,11 +1,11 @@
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class _122BestTimeBuyAndSellStock2Test {
 	private _122BestTimeBuyAndSellStock2 solution;
 
-	@Before
+	@BeforeEach
 	public void setUp() {
 		solution = new _122BestTimeBuyAndSellStock2();
 	}
@@ -16,7 +16,7 @@ public class _122BestTimeBuyAndSellStock2Test {
 
 		int profit = solution.maxProfit(nums);
 
-		Assert.assertEquals(0, profit);
+		Assertions.assertEquals(0, profit);
 	}
 
 	@Test
@@ -25,6 +25,6 @@ public class _122BestTimeBuyAndSellStock2Test {
 
 		int profit = solution.maxProfit(nums);
 
-		Assert.assertEquals(15, profit);
+		Assertions.assertEquals(15, profit);
 	}
 }

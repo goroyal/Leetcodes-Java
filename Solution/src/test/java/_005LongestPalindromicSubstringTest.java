@@ -1,11 +1,11 @@
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class _005LongestPalindromicSubstringTest {
   private _005LongestPalindromicSubstring solution;
 
-  @Before
+  @BeforeEach
   public void setUp() {
     solution = new _005LongestPalindromicSubstring();
   }
@@ -16,7 +16,7 @@ public class _005LongestPalindromicSubstringTest {
 
     String result = solution.longestPalindrome(s);
 
-    Assert.assertEquals("bab", result);
+    Assertions.assertEquals("bab", result);
   }
 
   @Test
@@ -25,6 +25,6 @@ public class _005LongestPalindromicSubstringTest {
 
     String result = solution.longestPalindrome(s);
 
-    Assert.assertEquals("bb", result);
+    Assertions.assertEquals("bb", result);
   }
 }

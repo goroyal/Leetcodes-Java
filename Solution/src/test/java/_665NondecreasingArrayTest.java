@@ -1,11 +1,11 @@
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class _665NondecreasingArrayTest {
   private _665NondecreasingArray solution;
 
-  @Before
+  @BeforeEach
   public void setUp() {
     solution = new _665NondecreasingArray();
   }
@@ -14,13 +14,13 @@ public class _665NondecreasingArrayTest {
   public void example1() {
     int[] nums = {4, 2, 3};
 
-    Assert.assertTrue(solution.checkPossibility(nums));
+    Assertions.assertTrue(solution.checkPossibility(nums));
   }
 
   @Test
   public void example2() {
     int[] nums = {4, 2, 1};
 
-    Assert.assertFalse(solution.checkPossibility(nums));
+    Assertions.assertFalse(solution.checkPossibility(nums));
   }
 }

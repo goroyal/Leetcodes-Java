@@ -1,11 +1,11 @@
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class _215KthLargestElementInArrayTest {
 	private _215KthLargestElementInArray solution;
 
-	@Before
+	@BeforeEach
 	public void setUp() {
 		solution = new _215KthLargestElementInArray();
 	}
@@ -17,6 +17,6 @@ public class _215KthLargestElementInArrayTest {
 
 		int result = solution.findKthLargest(nums, k);
 
-		Assert.assertEquals(5, result);
+		Assertions.assertEquals(5, result);
 	}
 }

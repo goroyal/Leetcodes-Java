@@ -1,11 +1,11 @@
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class _606ConstructStringFromBinaryTreeTest {
   private _606ConstructStringFromBinaryTree solution;
 
-  @Before
+  @BeforeEach
   public void setup() {
     solution = new _606ConstructStringFromBinaryTree();
   }
@@ -23,6 +23,6 @@ public class _606ConstructStringFromBinaryTreeTest {
 
     String result = solution.tree2str(node1);
 
-    Assert.assertEquals("1(2()(4))(3)", result);
+    Assertions.assertEquals("1(2()(4))(3)", result);
   }
 }

@@ -1,11 +1,11 @@
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class _628MaximumProductOfThreeNumbersTest {
   private _628MaximumProductOfThreeNumbers solution;
 
-  @Before
+  @BeforeEach
   public void setUp() {
     solution = new _628MaximumProductOfThreeNumbers();
   }
@@ -16,7 +16,7 @@ public class _628MaximumProductOfThreeNumbersTest {
 
     int result = solution.maximumProduct(nums);
 
-    Assert.assertEquals(6, result);
+    Assertions.assertEquals(6, result);
   }
 
   @Test
@@ -25,7 +25,7 @@ public class _628MaximumProductOfThreeNumbersTest {
 
     int result = solution.maximumProduct(nums);
 
-    Assert.assertEquals(24, result);
+    Assertions.assertEquals(24, result);
   }
 
   @Test
@@ -34,7 +34,7 @@ public class _628MaximumProductOfThreeNumbersTest {
 
     int result = solution.maximumProduct(nums);
 
-    Assert.assertEquals(-6, result);
+    Assertions.assertEquals(-6, result);
   }
 
   @Test
@@ -43,6 +43,6 @@ public class _628MaximumProductOfThreeNumbersTest {
 
     int result = solution.maximumProduct(nums);
 
-    Assert.assertEquals(48, result);
+    Assertions.assertEquals(48, result);
   }
 }

@@ -15,14 +15,4 @@ public class _112PathSum {
     boolean right = node.right != null && hasPathSum(node.right, node.val + traversaledSum, sum);
     return left || right;
   }
-
-  static class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-      val = x;
-    }
-  }
 }

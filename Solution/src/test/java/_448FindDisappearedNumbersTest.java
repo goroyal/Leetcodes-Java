@@ -1,13 +1,13 @@
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
 public class _448FindDisappearedNumbersTest {
   private _448FindDisappearedNumbers solution;
 
-  @Before
+  @BeforeEach
   public void setUp() {
     solution = new _448FindDisappearedNumbers();
   }
@@ -18,8 +18,8 @@ public class _448FindDisappearedNumbersTest {
 
     List<Integer> result = solution.findDisappearedNumbers(nums);
 
-    Assert.assertEquals(2, result.size());
-    Assert.assertTrue(result.contains(5));
-    Assert.assertTrue(result.contains(6));
+    Assertions.assertEquals(2, result.size());
+    Assertions.assertTrue(result.contains(5));
+    Assertions.assertTrue(result.contains(6));
   }
 }
